@@ -1,0 +1,5 @@
+com\niit\configuration\DBConfig.class
+com\niit\model\Product.class
+com\niit\womenaccessories\App.class
+com\niit\dao\ProductDao.class
+com\niit\dao\ProductDaoImpl.class
