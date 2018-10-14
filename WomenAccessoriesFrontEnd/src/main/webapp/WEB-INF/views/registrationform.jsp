@@ -181,4 +181,6 @@ Check this if shipping address is same as billing address
 
 		</form:form>
 	</div>
+	<%@ include file="footer.jsp" %>
+		</body>
 </html>

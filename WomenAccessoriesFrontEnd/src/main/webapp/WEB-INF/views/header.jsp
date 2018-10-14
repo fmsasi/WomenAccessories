@@ -4,8 +4,7 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@ taglib prefix="security"
-	uri="http://www.springframework.org/security/tags"%>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -35,12 +34,13 @@
 
 </head>
 <body>
+<h3 align="center" color="red">Welcome to our Women Accessories Page</h3>
 
 	<div class="container">
 		<nav class="navbar navbar-inverse">
 		<div class="navabar-header">
 			<a href="" class="navbar-brand"><img
-				src="resources/images/dragon.jpg" alt="NIIT" height="100%"
+				src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\Buisnesslogo.jpg" alt="LOGO" height="100%"
 				width="100%"></a>
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#navbardemo"
@@ -82,11 +82,13 @@
 					<li><a href="<c:url value='/cart/getcart'></c:url>"><span
 							class="glyphicon glyphicon-shopping-cart"></span></a></li>
 				</security:authorize>
-
+				<li><a href="contactus">Contact us</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
 				<c:if test="${pageContext.request.userPrincipal.name==null }">
-					<li><a href="<c:url value='/all/registrationform'></c:url>">Sign
-							Up</a></li>
-					<li><a href="<c:url value='/login'></c:url>">Sign In</a></li>
+					
+					<li><a href="<c:url value='/all/registrationform'></c:url>"><span class="glyphicon glyphicon-user"></span> Registration</a></li>
+					<li><a href="<c:url value='/login'></c:url>"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 				</c:if>
 				<c:if test="${pageContext.request.userPrincipal.name!=null }">
 					<li><a href="#">Welcome
@@ -104,22 +106,6 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

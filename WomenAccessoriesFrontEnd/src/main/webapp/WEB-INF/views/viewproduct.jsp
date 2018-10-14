@@ -27,8 +27,7 @@
 						Price:</b>${productObj.price} <br> <b>Product Quantity:</b>${productObj.quantity}
 					<br> <b>Category:</b>${productObj.category.categoryname} <br>
 					<c:if test="${productObj.quantity==0 }">
-						<button class="btn btn-primary btn-lg" disabled>Out Of
-							Stock</button>
+						<button class="btn btn-primary btn-lg" disabled>Out Of Stock</button>
 					</c:if>
 					<c:if test="${productObj.quantity>0 }">
 						<security:authorize access="hasRole('ROLE_USER')">
@@ -44,8 +43,7 @@
 			</div>
 		</div>
 	</div>
-	<a href="<c:url value='/all/getallproducts'></c:url>">Browse all
-		products</a>
+	<a href="<c:url value='/all/getallproducts'></c:url>">Browse all products</a>
 </body>
 </html>
 
