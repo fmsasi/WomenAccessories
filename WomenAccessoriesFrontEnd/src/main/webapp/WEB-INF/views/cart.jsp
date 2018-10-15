@@ -1,5 +1,3 @@
-
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
      <%@ include file="header.jsp" %>
@@ -8,8 +6,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<style>
+img#myImg {
+    filter:blur(5px);
+}
+</style>
 </head>
 <body>
+<p align="center"><img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\Buisnesslogo.jpg" alt="Backgroundimage" width="300" height="300" id="myImg"></p>
 <div class="container">
 <c:if test="${ !empty(cartItems) }">
 <a href="<c:url value='/cart/clearcart'></c:url>" class="btn btn-danger" pull-left  >

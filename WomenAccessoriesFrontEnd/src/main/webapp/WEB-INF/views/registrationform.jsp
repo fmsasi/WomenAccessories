@@ -5,12 +5,15 @@
 <%@ page isELIgnored="false"%>
 <html>
 <head>
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>RegistrationForm</title>
 <link href="<c:url value='/resources/css/registration.css'></c:url>" rel="stylesheet">
 <script type="text/javascript"
 	src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
 	<script type="text/javascript">
+	
 	function fillShippingaddress(form) {
 		if (form.shippingaddressform.checked == true) {
 			//shippingaddress same as billingaddress.
@@ -97,6 +100,8 @@
 </head>
 
 <body>
+
+
 	<div class="container">
 		<c:url value="/all/registercustomer" var="url"></c:url>
 		<form:form modelAttribute="customer" action="${url }" id="form">
@@ -115,8 +120,7 @@
 			<form:input path="phonenumber" id="phonenumber" />
 
 			<hr>
-			<b>Login Credentials</b>
-			<br>
+			<h4><b>Login Credentials</b></h4>
 			<form:label path="user.email">Enter Email</form:label>
 			<form:input path="user.email" id="user.email" type="email" />
 			<span style="color: red">${error}</span>
@@ -126,8 +130,7 @@
 
 
 			<hr>
-			<b>Billing Address</b>
-			<br>
+			<h4><b>Billing Address</b></h4>
 
 			<form:label path="billingaddress.apartmentnumber">Enter Apartmentnumber</form:label>
 			<form:input path="billingaddress.apartmentnumber"
@@ -149,9 +152,9 @@
 			<form:label path="billingaddress.zipcode">Enter Zipcode</form:label>
 			<form:input path="billingaddress.zipcode" id="billingaddress.zipcode" />
 			<hr>
-			<b>Shipping address</b>
-			<br>
-Check this if shipping address is same as billing address
+			<h4><b>Shipping address</b></h4>
+			
+<p><b>Check this if shipping address is same as billing address</b></p>
 <input type="checkbox" onclick="fillShippingAddress(this.form)"
 				id="shippingaddressform">
 			<form:label path="shippingaddress.apartmentnumber">Enter Apartmentnumber</form:label>
@@ -176,11 +179,12 @@ Check this if shipping address is same as billing address
 			<form:input path="shippingaddress.zipcode"
 				id="shippingaddress.zipcode" />
 			<br>
-			<input type="submit" value="Register"
-				style="background-color: grey;">
+			<input type="submit" value="REGISTER"
+				style="background-color: #DC143C;">
 
 		</form:form>
 	</div>
+	<br>
 	<%@ include file="footer.jsp" %>
 		</body>
 </html>

@@ -9,6 +9,13 @@
 </head>
 <body>
 <h2>Welcome to Join Us</h2>
+<marquee behavior="alternate"">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\h.jpg" alt="img1">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\i.jpg" alt="img2">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\q.jpg" alt="img3">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\cc.jpg" alt="img3">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\u.jpg" alt="img3">
+</marquee>
 <hr>
 <h3>ONLINE SHOPPING MADE EASY AT OURS</h3>
 <p>We have all planned our trips to the clothing store in advance, vividly dreaming about what we would buy once there. Some of us even have sales assistants for friends and have often asked them for a favour or two during peak shopping season (read: festivals and sales). But what we can all admit to is that we have always wished it was easier than to go down to the store in dense traffic, navigating through throngs of fashionistas, all vying for the same trendy clothing items, waiting in line to try on our top picks in the trial rooms, etc.</p> 

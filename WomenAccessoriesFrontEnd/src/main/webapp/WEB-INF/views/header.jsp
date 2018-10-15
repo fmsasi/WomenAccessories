@@ -34,7 +34,8 @@
 
 </head>
 <body>
-<h3 align="center" color="red">Welcome to our Women Accessories Page</h3>
+
+<h3><marquee behavior="slide" direction="left">Welcome to our Women Accessories Website</marquee></h3>
 
 	<div class="container">
 		<nav class="navbar navbar-inverse">
@@ -82,7 +83,8 @@
 					<li><a href="<c:url value='/cart/getcart'></c:url>"><span
 							class="glyphicon glyphicon-shopping-cart"></span></a></li>
 				</security:authorize>
-				<li><a href="contactus">Contact us</a></li>
+				<li><a href="<c:url value='/contactus'></c:url>">Contact us</a></li>
+	
 </ul>
 <ul class="nav navbar-nav navbar-right">
 				<c:if test="${pageContext.request.userPrincipal.name==null }">

@@ -31,7 +31,7 @@
 <c:url var="url" value="/cart/createorder"></c:url>
 <form:form modelAttribute="shippingaddress" action="${url }" id="form">
 
-<p align="center"><b>Shipping Address</b></p>	
+<h4 align="center"><b>Shipping Address</b></h4>	
 <form:hidden path="id"/>
 
 <form:label path="apartmentnumber">Enter Apartmentnumber</form:label>
@@ -58,7 +58,7 @@
 <form:input path="zipcode" id="zipcode"/>
 
 
-<button type="submit" >Next</button>
+<button type="submit" style="background-color: #DC143C;">Next</button>
 </form:form>
 </div>
 </body>

@@ -10,8 +10,21 @@
 <link href="<c:url value='/resources/css/registration.css'></c:url>" rel="stylesheet">
 </head>
 <body>
-<div class="container">
 
+<div class="container">
+<p align="center">
+<video width="350" height="315" controls>
+  <source src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\mov1.mp4" type="video/mp4">
+  </video>
+  <iframe width="350" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<video width="350" height="315" controls>
+  <source src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\mov1.mp4" type="video/mp4">
+ 
+</video>
+</p>
+<br><br>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -68,8 +81,13 @@
             </a>
         </div>
 </div>
-<br><br>
-
+<!-- <marquee behavior="alternate"">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\h.jpg" alt="img1">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\i.jpg" alt="img2">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\q.jpg" alt="img3">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\cc.jpg" alt="img3">
+<img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\u.jpg" alt="img3">
+</marquee> -->
 	
                   <!--   <img class="img-responsive" src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\aa.jpg" alt="slide1"> -->
     <div class="container">
@@ -79,7 +97,7 @@
         
           <img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\e.jpg" class="img-circle" alt="slide1" style="width:100%">
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>Keep your lips looking fresh up to 24 hours, from a day at the office, to a late night date. </p>
           </div>
         </a>
       </div>
@@ -89,7 +107,7 @@
         
           <img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\bb.jpg" class="img-circle" alt="Nature" style="width:100%">
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>Choose from our palette of iconic nail enamel shades, lust-worthy longwear hues and nail colors that care.</p>
           </div>
         </a>
       </div>
@@ -99,7 +117,7 @@
         
           <img src="D:\SasiProject\WomenAccessoriesFrontEnd\src\main\webapp\WEB-INF\images\v.jpg" class="img-circle" alt="Fjords" style="width:100%">
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>Stylish & Fashionable Peeptoes Sandals for Women & Girl.</p>
           </div>
         </a>
       </div>

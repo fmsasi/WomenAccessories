@@ -13,16 +13,10 @@
 <body>
 <div class="container-wrapper">
     <div class="container">
-    
-       
-        <div class="container">
-        
-
-            <div class="row">
-
-                             <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
-
-                       <div >
+     <div class="container">
+     <div class="row">
+     <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
+     <div>
                             <h1 align="center">Invoice</h1>
                        </div>
                         ORDER ID: ${customerorder.orderId }
@@ -63,9 +57,9 @@
                             <table class="table table-hover" border="1">
                                 <thead>
                                     <tr>
-                                        <td>Image</td>
-                                        <td>Product</td>
-                                        <td>Units</td>
+                                        <td class="text-center">Image</td>
+                                        <td class="text-center">Product</td>
+                                        <td class="text-center">Units</td>
                                         <td class="text-center">Price</td>
                                         <td class="text-center">Total</td>
                                     </tr>
